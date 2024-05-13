@@ -1,0 +1,150 @@
+:root {
+    --biru-tua: #143149;
+    --biru: #296393;
+    --biru-muda:#94b1c9;
+}
+
+*{
+    padding:0;
+    margin:0;
+    font-family: Schluber;
+}
+
+body {
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    color: white;
+}
+
+nav > p {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #296393;
+    font-size: 30px;
+    width: 100%;
+    height: 9%;
+    border-radius: 100px;
+    gap: 10%;
+    z-index: 4;
+}
+
+.nav-text:hover {
+    color: var(--biru-muda);
+    cursor: pointer;
+}
+
+.nav-text {
+    color: var(--biru-tua);
+    text-decoration: none;
+}
+
+.selected:hover {
+    cursor: default;
+    text-decoration: 4rem solid;
+}
+
+@keyframes float {
+    from {
+        transform: translateY(-3px);
+    } to {
+        transform: translateY(3px);
+    }
+}
+
+.float {
+    animation: float 2s 1s infinite alternate-reverse;
+}
+
+.margin-top {
+    margin-top: 60px;
+}
+
+.profile {
+    border-radius: 100%;
+}
+
+.center {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info-container {
+    background-color: #296393;
+    padding-block: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.info-container {
+    background-color: #296393;
+    padding-block: 10px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.info-container > div {
+    margin-inline: 20px;
+}
+
+.info-container > div > h3 {
+    color: var(--biru-tua);
+}
+
+.info-container > div > p {
+    color: white;
+}
+
+.background-white {
+    background-color: white;
+    
+}
+
+.background-white {
+    background-color: #94b1c9;
+    
+}
+
+
+.background-white > p > a > img {
+    border: 2.5px solid #143149;
+    border-radius: 10px;
+}
+
+table {
+    background-color: var(--biru-tua);
+}
+
+.imgas {
+    width: 100%;
+}
+
+.textsp {
+    font-size: 18px;
+}
+
+
+
+.img-flex {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
